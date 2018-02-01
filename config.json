@@ -1,0 +1,64 @@
+{
+	"version": "0",
+	"id": "cc6a0b8a-c85b-522f-6106-33dc878d5034",
+	"detail-type": "AWS API Call via CloudTrail",
+	"source": "aws.config",
+	"account": "365610231659",
+	"time": "2018-01-04T17:49:38Z",
+	"region": "us-east-1",
+	"resources": [],
+	"detail": {
+		"eventVersion": "1.05",
+		"userIdentity": {
+			"type": "AssumedRole",
+			"principalId": "AROAIWPXDIJNMEG37VTQM:configLambdaExecution",
+			"arn": "arn:aws:sts::365610231659:assumed-role/config-role-us-east-1/configLambdaExecution",
+			"accountId": "365610231659",
+			"accessKeyId": "ASIAIE44DJLRTCRX76JA",
+			"sessionContext": {
+				"attributes": {
+					"mfaAuthenticated": "false",
+					"creationDate": "2018-01-04T17:49:37Z"
+				},
+				"sessionIssuer": {
+					"type": "Role",
+					"principalId": "AROAIWPXDIJNMEG37VTQM",
+					"arn": "arn:aws:iam::365610231659:role/service-role/config-role-us-east-1",
+					"accountId": "365610231659",
+					"userName": "config-role-us-east-1"
+				}
+			},
+			"invokedBy": "config.amazonaws.com"
+		},
+		"eventTime": "2018-01-04T17:49:38Z",
+		"eventSource": "config.amazonaws.com",
+		"eventName": "PutEvaluations",
+		"awsRegion": "us-east-1",
+		"sourceIPAddress": "config.amazonaws.com",
+		"userAgent": "config.amazonaws.com",
+		"requestParameters": {
+			"resultToken": "eyJlbmNyeXB0ZWREYXRhIjpbLTM1LC0yNCwwLDM2LC03NywyLC0xMDgsLTMyLDMyLC0xMDQsLTMzLDYsOTQsNTQsLTcsLTY3LC0xMTEsLTEwMCwzNiwtNjMsLTQzLDc0LC01OSwtMiwtODIsLTEyNCw5MiwzOCwtODAsOTksLTk4LDI3LC01NiwtNTAsLTEyLDEyNiw5MCwxMDQsLTk0LC04NywzMywtMzgsMjQsLTgxLC04MiwtNDEsNjUsLTQwLDE0LC0yNSw3MCwtMTE5LC03MCw1NSw2Miw5NCwtMjIsMTI2LC01Miw2OSwtNTcsNTksMTE5LC0xMDEsNDIsLTc1LC0zMSw3MiwtNzYsOTQsMTE2LC0yNCwtNjksMzksNDIsMzYsLTQ1LC0xMDgsMjMsNzUsOTUsNzMsLTY3LC05Miw3NCw1MCwtODcsLTUzLC01NSwtMTAwLC03LDI4LC0zMyw3OCwxMDAsLTEyMCwxMiwtMTQsMTE0LC01OCwxMTIsLTQ2LC0xMCw0NSw1MiwxMTcsOTgsODYsLTI2LDExMSwtMiwtMzQsLTMxLDQ5LDExMiwtNywxOSwxMjcsLTEyMCw3MCwtMTEwLDc5LDM3LDM0LDkwLDM1LC0xMDksMzYsLTg2LC02MSwtMjQsMTEwLC02NywxOCw0NiwtNTAsLTQyLC0xMjEsOTksOTMsMjQsLTYxLDM2LDgwLDkxLDc5LDEwLC04Nyw5NywxMTEsLTEwNSwtNjIsLTI0LC05OCwxMDEsLTMsMTE0LC0xMDAsLTQ4LC0xMTQsNDAsLTEyOCw4NCwyNCwtNjksLTEyNCwtMTE1LDY1LDUzLC03OCwtOSw4OCwtNTgsMTAwLDU3LC03MSwtMjIsLTExMywtNzksMTAwLDM5LDIsNjgsLTcyLDk4LC01OSwtNiwtNjAsOSwwLC0xNCwtNyw1OCw3Niw2MCwtNDQsLTE3LC0yNCwtNDYsLTEwMCw1MCwyMSwxMjEsLTI1LC0yNiwtOTQsMTAwLDEwMCwtMjUsLTc4LDAsLTk1LDgsLTkxLDI4LDExMywtNCwtODYsLTQsMzMsLTE4LC0xMiwtMTMsLTYwLDY1LC0xMDcsLTM2LC0xMjIsMTMsLTY1LC03NCw5OCwtMzMsLTEyNywtNDUsMzIsMTE4LDc4LDExMSwtOTUsLTEwNSwtMTIxLC04NSwtMTIwLDYsNzIsLTQwLC0yLDgxLC0yNCwxMjEsLTEyOCwtNzQsNywtMTE4LDcwLDEsMTMsLTM2LDQ3LC05NywtNTgsMjYsMywtNyw2NSwtMTI4LC0zMiw2OSwxMDQsNjEsMTEzLDI4LDczLDg1LDQxLDM3LC02NywtNzAsOSwtNzIsMjYsLTk5LDcxLC0zNSwxMSwtODYsOTksNzcsLTk4LDEsMTIwLC02OSwtMTcsNTYsLTkwLC0xMjAsLTc4LC03OSw5NywxMDgsMTUsLTE0LC00Myw3OCwzNSw5MywtODYsLTEyNCwyLC05MywtMTE0LC04MCwtNSwxMjEsOTIsLTc4LDEyNiwyNSw2NCwtMjMsLTQ5LDEwNiwtMzksLTc0LDEwNSwxLC0xMjcsLTg4LC01LC00NywxMDgsLTEyNSwtODYsNjIsLTk4LDEwNSwtMSwtMTgsMzQsLTYwLC0xMTgsMTIsMTI3LC01MSwtNDIsLTEyMiwtNjcsLTY0LC0xMjYsNiwtMTI0LDEyNCwtMTMsNTUsLTEwOCwzNSwxMTQsLTgyLDQ0LDYsNTYsLTE5LDI3LDU2LDEyLC0xMTksNzgsLTEwNiwxMDIsOTksNjQsLTQ2LDk0LC0yMSw2NiwyOCw0OSwtNTksLTEwMiwxOCw2NCwtOTQsNzYsMTE5LDI4LDMsLTg5LC0yOSwxMDQsNDksLTk2LC05MywxMDYsLTM2LDY0LDIsMjQsLTEyMiw0Myw0NSwtOTUsLTU3LC04LC05Myw4OSwtMTUsOTIsLTYzLDYyLC0xMTEsLTU1LC0xNiwtMTYsMzUsMTIsLTEwMCwtMTA5LC03NiwtMzUsLTIwLC04MCw1LC05MywxMDMsLTgsMTIxLC0xNiw1NywxMSwtMTI0LC0yMSwxNSwyNiw2NiwtMjEsLTQ5LDIxLDEyMyw5OCw3MiwtMTcsMjgsLTUsMTA0LDM4LDkxLC05MiwtOCw5OCwtNDUsODMsLTM2LDczLC0xNywxMTYsLTk5LDg5LC0xLC0xMjUsLTYyLDUyLDUxXSwibWF0ZXJpYWxTZXRTZXJpYWxOdW1iZXIiOjEsIml2UGFyYW1ldGVyU3BlYyI6eyJpdiI6WzI2LC05NywtODgsLTcxLC0yNSwtMTE0LDExNSwzNCw0NiwyMCw2Myw2MCw1OCwtODAsLTg2LDEwNV19fQ==",
+			"testMode": "false",
+			"evaluations": [{
+				"annotation": "The S3 bucket ACL allows public read access.",
+				"orderingTimestamp": "Jan 4, 2018 5:49:28 PM",
+				"complianceResourceType": "AWS::S3::Bucket",
+				"complianceResourceId": "testballu",
+				"complianceType": "NON_COMPLIANT"
+			}]
+		},
+		"responseElements": {
+			"failedEvaluations": []
+		},
+		"additionalEventData": {
+			"configRuleName": "s3-bucket-public-read-prohibited",
+			"configRuleArn": "arn:aws:config:us-east-1:365610231659:config-rule/config-rule-6f1ret",
+			"notificationJobType": "POLLED",
+			"configRuleInputParameters": "{}",
+			"managedRuleIdentifier": "S3_BUCKET_PUBLIC_READ_PROHIBITED"
+		},
+		"requestID": "a20bbd2a-f177-11e7-b335-9fce66a51b8b",
+		"eventID": "9767bb1c-2d0a-4b4c-8876-97d49b4f22ac",
+		"eventType": "AwsApiCall"
+	}
+}
